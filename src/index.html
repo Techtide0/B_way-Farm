@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B-way Farm</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="icon" href="../images/logo.png" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="main-header">
+      <a class="logo" href="/"
+        ><i class="fa-solid fa-basket-shopping"></i>B-way Farm</a
+      >
+      <nav class="nav_links">
+        <a href="#home">Home</a>
+        <a href="#products">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="navbar_icons">
+        <div class="fas fa-bars" id="mobile_menu"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="../images/frozen.jpg" alt="" />
+          <div class="content">
+            <h3>Frozen Fish</h3>
+            <span class="price">$0.00</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="../images/back1.jpeg" alt="" />
+          <div class="content">
+            <h3>Ofada Rice</h3>
+            <span class="price">$0.00</span>
+            <span class="quantity">qty : 2</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="../images/back5.webp" alt="" />
+          <div class="content">
+            <h3>Smoked Fish</h3>
+            <span class="price">$0.00</span>
+            <span class="quantity">qty : 2</span>
+          </div>
+        </div>
+        <div class="total">Total : $0.00</div>
+        <a href="#" class="btn">Checkout</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>Login Now</h3>
+        <input type="email" placeholder="Your Email" class="box" />
+        <input type="password" placeholder="Your Password" class="box" />
+        <p>forgot your password? <a href="#">click here</a></p>
+        <p>
+          don't have an account? <a class="signupbtn" href="#">create now</a>
+        </p>
+        <input type="submit" value="login now" class="btn" />
+      </form>
+
+      <form action="" class="signup-form" id="signup">
+        <h3>Signup Now</h3>
+        <input type="email" placeholder="Your Email" class="box" />
+        <input type="password" placeholder="Your Password" class="box" />
+        <p>Already have an account? <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn" />
+      </form>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="backg">
+        <img
+          src="../images/back5.webp"
+          alt="an image of our products"
+          class="slide"
+        />
+      </div>
+      <div class="text">
+        <h2>B-Way Farm</h2>
+        <p>Fresh, Quality Farm Produce Delivered to Your Doorstep</p>
+        <button>Shop Now</button>
+      </div>
+    </section>
+
+    <div class="ban" id="products">
+      <h2>Fresh Farm Delights</h2>
+      <p>
+        Browse our finest selection of fresh farm produce, grown for quality and
+        taste.
+      </p>
+    </div>
+
+    <section class="swiper product-slider">
+      <div class="swiper-wrapper wrapper">
+        <div class="swiper-slide box">
+          <img src="/images/Car fixing.jpg" alt="" />
+          <h3>Live catfish</h3>
+          <div class="price">1300 Naira</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#">Add To Cart <i class="bx bxs-cart-add"></i></a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="/images/Car fixing.jpg" alt="" />
+          <h3>Tablesize catfish</h3>
+          <div class="price">1300 Naira</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#">Add To Cart <i class="bx bxs-cart-add"></i></a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="/images/Car fixing.jpg" alt="" />
+          <h3>meal launch catfish</h3>
+          <div class="price">1300 Naira</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#">Add To Cart <i class="bx bxs-cart-add"></i></a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="/images/Car fixing.jpg" alt="" />
+          <h3>smoked catfish</h3>
+          <div class="price">1300 Naira</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#">Add To Cart <i class="bx bxs-cart-add"></i></a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="/images/Car fixing.jpg" alt="" />
+          <h3>Frozen catfish</h3>
+          <div class="price">1300 Naira</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#">Add To Cart <i class="bx bxs-cart-add"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="swiper product-slider">
+      <div class="swiper-wrapper wrapper">
+        <div class="swiper-slide box">
+          <img src="/images/Car fixing.jpg" alt="" />
+          <h3>Ofada Rice</h3>
+          <div class="price">1300 Naira</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#">Add To Cart <i class="bx bxs-cart-add"></i></a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="/images/Car fixing.jpg" alt="" />
+          <h3>Fresh Yams</h3>
+          <div class="price">1300 Naira</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#">Add To Cart <i class="bx bxs-cart-add"></i></a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="/images/Car fixing.jpg" alt="" />
+          <h3>Fresh Potato</h3>
+          <div class="price">1300 Naira</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#">Add To Cart <i class="bx bxs-cart-add"></i></a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="/images/Car fixing.jpg" alt="" />
+          <h3>Garri</h3>
+          <div class="price">1300 Naira</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#">Add To Cart <i class="bx bxs-cart-add"></i></a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="/images/Car fixing.jpg" alt="" />
+          <h3>Fresh Onions</h3>
+          <div class="price">1300 Naira</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#">Add To Cart <i class="bx bxs-cart-add"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-header" id="about">
+      <h2>#Know Us</h2>
+      <p>A place where quality meets taste.</p>
+    </section>
+
+    <section class="about">
+      <img src="../images/back3.jpg" alt="aout us" />
+      <div>
+        <h2>Who Are We?</h2>
+        <p>
+          Welcome to B-Way Farm, your trusted source for fresh, high-quality
+          farm produce delivered straight to your doorstep. At B-Way Farm, we
+          take pride in offering a range of wholesome, farm-fresh products,
+          including live catfish, frozen catfish, smoked catfish, ofada rice,
+          and yams.
+        </p>
+        <p>
+          Our mission is simple: to make farm produce accessible, affordable,
+          and convenient for everyone. Whether you're a home cook, a restaurant
+          chef, or simply someone who values fresh food, B-Way Farm is dedicated
+          to meeting your needs with quality products and a seamless shopping
+          experience.
+        </p>
+        <p>
+          We believe that everyone should have access to nutritious, farm-fresh
+          food without hassle.
+        </p>
+        <abbr title=""
+          >That’s why our ordering process is straightforward—just add items to
+          your cart and check out via WhatsApp for a quick, personal
+          experience.</abbr
+        >
+        <br />
+        <br />
+        <marquee loop="-1" scrollamount="5"
+          >Thank you for choosing B-Way Farm as your go-to source for fresh farm
+          produce. We look forward to serving you!</marquee
+        >
+      </div>
+    </section>
+
+    <div class="contact-header" id="contact"></div>
+    <section class="contact-details">
+      <div class="details">
+        <span>GET IN TOUCH</span>
+        <h2>Visit our farm locations or contact us today</h2>
+        <h3>Main Farm</h3>
+        <div>
+          <li>
+            <i class="bx bx-map-alt"></i>
+            <p>6 Abimbola Ayuba Street ijeododo lagos</p>
+          </li>
+          <li>
+            <i class="bx bx-envelope"></i>
+            <p>contact@example.com</p>
+          </li>
+          <li>
+            <i class="bx bxs-phone"></i>
+            <p>phone number</p>
+          </li>
+          <li>
+            <i class="bx bx-time-five"></i>
+            <p>Monday to Saturday 9:00am to 5:00pm</p>
+          </li>
+        </div>
+      </div>
+
+      <div class="maps">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.159520312216!2d3.2381136!3d6.501480499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b85c02afbfe69%3A0xf5fa0ca713722efc!2s6%20Abimbola%20Ayuba%20St%2C%20Ijeododo%2C%20Lagos%20100242%2C%20Lagos!5e0!3m2!1sen!2sng!4v1731413249350!5m2!1sen!2sng"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="form-details">
+      <form action="" class="form">
+        <span>LEAVE A MESSAGE</span>
+        <h2>We would love to hear from you</h2>
+        <input type="text" id="name" placeholder="Your Name" />
+        <input type="text" id="name" placeholder="E-mail" />
+        <input type="text" id="name" placeholder="Subject" />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <button>Submit</button>
+      </form>
+      <div class="people">
+        <div>
+          <img src="../images/guy.jpeg" alt="managers pics" />
+          <p>
+            <span>Oseni Adebayo</span>
+            Project Manager <br />
+            Phone: 08012345678 <br />
+            Email: contact@example.com
+          </p>
+        </div>
+        <div>
+          <img src="../images/guy.jpeg" alt="managers pics" />
+          <p>
+            <span>Oseni David</span>
+            Senior Marketing Manager <br />
+            Phone: 08012345678 <br />
+            Email: contact@example.com
+          </p>
+        </div>
+        <div>
+          <img src="../images/guy.jpeg" alt="managers pics" />
+          <p>
+            <span>Oseni Moses</span>
+            Senior Marketing Manager <br />
+            Phone: 08012345678 <br />
+            Email: contact@example.com
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>Get E-mail updates about our latest <span>products</span></p>
+      </div>
+      <div class="form">
+        <input type="email" id="email-news" placeholder="Your email address" />
+        <button>Sign Up</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="col">
+        <div>
+          <i class="fa-solid fa-basket-shopping"></i>
+          <h2>B-Way Farm</h2>
+        </div>
+        <h4>Contacts</h4>
+        <p>
+          <strong>Address: </strong>6 Abimbola Ayuba street, Ijeododo, Lagos
+          Nigeria
+        </p>
+        <p><strong>Phone: </strong>+2348012345678 / +2348012345678</p>
+        <p><strong>Hours: </strong>9:00am - 18:00pm, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#about">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#about">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">Track My Order</a>
+        <a href="#">My Wishlist</a>
+        <a href="#contact">Help</a>
+      </div>
+      <div class="copyright">
+        <p>
+          &copy; 2023, B-Way Farm Limited - A place where quality meets taste.
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../functions/scripts.js"></script>
+  </body>
+</html>
