@@ -21,6 +21,7 @@ html {
 
 body {
     background: whitesmoke;
+    overflow-x: hidden;
 }
 
 .main-header {
