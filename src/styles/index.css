@@ -272,7 +272,7 @@ body {
 
 /* signup */
 .main-header .signup-form {
-    position: relative;
+    position: absolute;
     top: 110%;
     right: 100rem;
     width: 30rem;
